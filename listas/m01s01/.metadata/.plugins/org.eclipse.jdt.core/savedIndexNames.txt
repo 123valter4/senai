@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/valter/Estudos/senai/listas/m01s01/.metadata/.plugins/org.eclipse.jdt.core
+3798887653.index
+1865797976.index
+556898939.index
