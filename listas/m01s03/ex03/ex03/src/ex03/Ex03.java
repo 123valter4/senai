@@ -18,14 +18,17 @@ public class Ex03 {
 		quantidadeNomes = leitor.nextInt();
 
 		String[] nomes = new String[quantidadeNomes];
+		String[] sobrenomes = new String [quantidadeNomes];
 
 		for (int i = 0; i < quantidadeNomes; i++) {
 			System.out.println("Escreva o " + (i + 1) + "º nome");
 			nomes[i] = leitor.next();
+			System.out.println("Agora escreva o " + (i + 1) + "º sobrenome");
+			sobrenomes[i] = leitor.next();
 
 		}
 		for (int i = 0; i < nomes.length; i++) {
-			System.out.println("O nome " + nomes[i] + " tem " + nomes[i].length() + " caracteres");
+			System.out.println("O nome " + nomes[i] + " " + sobrenomes[i] + " tem " + (nomes[i].length()+ sobrenomes[i].length()) + " caracteres");
 		}
 	}
 }
